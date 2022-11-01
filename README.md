@@ -26,7 +26,7 @@ Here are the technologies used in this project.
 
 ## How to use
 
-### Photo.
+### Photo
 
 ![Image](https://raw.githubusercontent.com/victormssa/React-TS-Twitter-Web-UI/main/layout/Feed/Light.png)
 
