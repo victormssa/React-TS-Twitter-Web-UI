@@ -28,7 +28,7 @@ Here are the technologies used in this project.
 
 ### Photo.
 
-![Image](https://github.com/victormssa/)
+![Image](https://raw.githubusercontent.com/victormssa/React-TS-Twitter-Web-UI/main/layout/Feed/Light.png)
 
 ## Links
   - Deploy on GitHub: https://victormssa.github.io/Compass_Keepalive/
