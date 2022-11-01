@@ -1,12 +1,12 @@
 import { Meta, StoryObj } from '@storybook/react';
 import { Image, Gif, ChartBarHorizontal, Smiley, CalendarBlank } from 'phosphor-react'; 
-import { TextArea, TextAreaAreaProps, TextAreaRootProps } from '../components/TextArea';
-import { Button } from '../components/Button';
-import imageFile from './../assets/imgs/profilePicture.png';
+import { TextArea, TextAreaAreaProps, TextAreaRootProps } from '../TextArea';
+import { Button } from '../Button';
+import imageFile from './../../assets/imgs/profilePicture.png';
 
 const image = {
     src: imageFile,
-    alt: 'my image',
+    alt: 'Profile Picture',
   };
 
 export default {

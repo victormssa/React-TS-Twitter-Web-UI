@@ -36,7 +36,7 @@ function TextAreaArea(props: TextAreaAreaProps) {
     return (
             <>
             {props.children}
-            <textarea className =
+            <textarea id='textarea' className =
             'bg-transparent text-black text-xl placeholder:text-dark5 outline-none ml-4 mt-3 resize-none overflow-hidden leading-none'
             placeholder="What's happening" cols={30} maxLength={350} 
             ></textarea>

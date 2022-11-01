@@ -1,31 +1,37 @@
-import { ReactNode } from 'react';
+import React, { ReactNode } from 'react';
 import { Slot } from '@radix-ui/react-slot';
 import { clsx } from 'clsx';
 
 
 export interface ButtonProps {
-    padding? : 'large' | 'small';
+    padding? : 'large' | 'small' | 'xsmall';
     on?: 'enabled' | 'disabled';
     children: ReactNode;
     asChild? :boolean;
     className?: string;
+    id?: string;
+    onClick?: ReactNode;
+    handleClick: (event: React.MouseEvent<HTMLButtonElement>) => any;
 }
 
-export function Button({ padding = 'large', on = 'enabled', children, asChild, className }: ButtonProps) {
+export function Button({ padding = 'large', on = 'enabled', children, asChild, className, id, onClick, handleClick }: ButtonProps) {
     const Comp = asChild ? Slot : 'button';
     return (
         <Comp 
             className={clsx(
-                'font-bold bg-blue text-white py-3 px-24 rounded-full text-sm hover:bg-darkBlue transition-colors',
+                'font-bold py-3 px-24 rounded-full text-sm  transition-colors',
                 {
                     'px-21': padding === 'large',
                     'px-5 py-2': padding === 'small',
-                    'opacity-50 cursor-not-allowed': on === 'disabled',
-                    'opacity-100 cursor-pointer': on === 'enabled',
+                    'px-5 py-1': padding === 'xsmall',
+                    'cursor-not-allowed': on === 'disabled',
+                    'cursor-pointer': on === 'enabled',
                     
                 },
                 className,
-        )}>{children}</Comp>
+                id,
+                onClick,
+        )}onClick={handleClick}>{children}</Comp>
     )
 }
 

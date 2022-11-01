@@ -3,7 +3,7 @@ import { Home } from './Home'
 export function App() {
     return (
       <>
-        <section className='flex bg-background'>
+        <section className='flex bg-background '>
             <SideMenu />
             <Home />
         </section>

@@ -13,7 +13,7 @@ export interface TextProps {
 }
 
 export function Text({ size = 'md', color = 'black', weight = '700', children, asChild, className }: TextProps) {
-    const Comp = asChild ? Slot : 'span';
+    const Comp = asChild ? Slot : 'p';
     return (
         <Comp 
             className={clsx(

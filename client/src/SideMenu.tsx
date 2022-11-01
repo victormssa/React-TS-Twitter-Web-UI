@@ -8,13 +8,13 @@ import './styles/global.css';
 
 const image = {
   src: imageFile,
-  alt: 'my image',
+  alt: 'Profile Picture',
 };
 
 export function SideMenu() {
   return (
     <>
-      <nav className='w-[400px] h-screen border-dark7 border-r bg-white'>
+      <nav className='w-[400px] h-screen border-dark7 border-r bg-white fixed mr-5'>
         <aside className='flex flex-col ml-36 mr-18 '>
           <ul className=''>
             <li className='mt-2'>
@@ -95,7 +95,7 @@ export function SideMenu() {
           </ul>
           
           <section className='left-[130px] bottom-[130px] absolute'>
-            <Button padding="large">
+            <Button handleClick={console.log} className='bg-blue text-white hover:bg-darkBlue' padding="large">
               Tweet
             </Button>
           </section>

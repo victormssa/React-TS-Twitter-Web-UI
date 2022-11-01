@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { Button, ButtonProps } from '../components/Button'
+import { Button, ButtonProps } from '../Button'
 
 export default {
     title: 'Components/Button',
@@ -7,6 +7,7 @@ export default {
     args: {
         children: 'Tweet',
         padding: 'large',
+        
     },
     argTypes: {
         padding: {
