@@ -24,15 +24,13 @@ Here are the technologies used in this project.
 
 * GitHub
 
-## How to use
-
-### Photo
+### Photo of the Application
 
 ![Image](https://raw.githubusercontent.com/victormssa/React-TS-Twitter-Web-UI/main/layout/Feed/Light.png)
 
 ## Links
-  - Deploy on GitHub: https://victormssa.github.io/Compass_Keepalive/
-  - Repository: https://github.com/victormssa/Compass_Keepalive
+  - Deploy on GitHub: https://victormssa.github.io/React-TS-Twitter-Web-UI/
+  - Repository: https://github.com/victormssa/React-TS-Twitter-Web-UI
     - In case of sensitive bugs like security vulnerabilities or others, please contact
       victormssalves@outlook.com directly instead of using issue tracker. We value your effort
       to improve the security and privacy of this project!
