@@ -10,14 +10,14 @@ import {
   Smiley,
   CalendarBlank,
 } from "phosphor-react";
-import imageFile from "./assets/imgs/profilePicture.png";
-import { Button } from "./components/Button";
-import { Heading } from "./components/Heading";
-import { TextArea } from "./components/TextArea";
-import { Text } from "./components/Text";
-import { Post, Post2, PostUnder } from "./components/Post";
-import { SideColumn } from "./SideColumn";
-import { Footer } from "./components/footer";
+import imageFile from "../../assets/imgs/profilePicture.png";
+import { Button } from "../Button/Button";
+import { Heading } from "../Heading/Heading";
+import { TextArea } from "../TextArea/TextArea";
+import { Text } from "../Text/Text";
+import { Post, Post2, PostUnder } from "../Posted/Post";
+import { SideColumn } from "../SideColumn/SideColumn";
+import { Footer } from "../Footer/Footer";
 import React from "react";
 
 const image = {

@@ -1,11 +1,10 @@
-import { SideMenu } from './SideMenu'
-import { Home } from './Home'
+import { Home } from './components/Home/Home'
+import { Text } from './components/Text/Text'
 export function App() {
     return (
       <>
         <section className='flex bg-background '>
-            <SideMenu />
-            <Home />
+          <Home></Home>
         </section>
       </>
     )

@@ -10,7 +10,7 @@ export interface ButtonProps {
     asChild? :boolean;
     className?: string;
     id?: string;
-    onClick?: ReactNode;
+    onClick?: any;
     handleClick: (event: React.MouseEvent<HTMLButtonElement>) => any;
 }
 

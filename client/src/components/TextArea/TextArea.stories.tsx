@@ -1,7 +1,7 @@
 import { Meta, StoryObj } from '@storybook/react';
 import { Image, Gif, ChartBarHorizontal, Smiley, CalendarBlank } from 'phosphor-react'; 
-import { TextArea, TextAreaAreaProps, TextAreaRootProps } from '../TextArea';
-import { Button } from '../Button';
+import { TextArea, TextAreaAreaProps, TextAreaRootProps } from './TextArea';
+import { Button } from '../Button/Button';
 import imageFile from './../../assets/imgs/profilePicture.png';
 
 const image = {
@@ -30,7 +30,7 @@ export default {
                         <Smiley className='mt-0 mr-4 rounded-full hover:text-darkBlue cursor-pointer transition-colors' />
                         <CalendarBlank className='mt-0 mr-64 rounded-full hover:text-darkBlue cursor-pointer transition-colors' />
                     </TextArea.Icon>
-                    <Button on='disabled' padding='small' children='Tweet'></Button>
+                    <Button handleClick={} on='disabled' padding='small' onClick={console.log()} children='Tweet'></Button>
                 </div>
             
             </section>

@@ -1,7 +1,7 @@
 import { Meta, StoryObj } from '@storybook/react';
 import { TwitterLogo, House, Hash, Bell, EnvelopeSimple, BookmarkSimple, List, User, DotsThreeCircle } from 'phosphor-react'; 
-import { Anchor, AnchorProps, AnchorRootProps } from '../Anchor';
-import { Heading } from '../Heading';
+import { Anchor, AnchorProps, AnchorRootProps } from './Anchor';
+import { Heading } from '../Heading/Heading';
 
 export default {
     title: 'Components/Anchor',

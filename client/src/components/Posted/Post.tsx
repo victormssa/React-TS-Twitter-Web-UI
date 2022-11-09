@@ -1,11 +1,11 @@
 import { Sparkle, Chat, ArrowsClockwise, Heart, UploadSimple, Image, Gif, ChartBarHorizontal, Smiley, CalendarBlank } from "phosphor-react";
-import { Text } from "./Text"
-import { Heading } from './Heading';
-import imageFile from '../assets/imgs/profilePicture.png';
-import postImage1 from '../assets/imgs/PostImage1.png'
-import postImage2 from '../assets/imgs/PostImage2.png'
-import profilePicture from '../assets/imgs/ProfilePicture3.png'
-import profilePicture2 from '../assets/imgs/ProfilePicture4.png'
+import { Text } from "../Text/Text"
+import { Heading } from '../Heading/Heading';
+import imageFile from '../../assets/imgs/profilePicture.png';
+import postImage1 from '../../assets/imgs/PostImage1.png'
+import postImage2 from '../../assets/imgs/PostImage2.png'
+import profilePicture from '../../assets/imgs/ProfilePicture3.png'
+import profilePicture2 from '../../assets/imgs/ProfilePicture4.png'
 
 const image = {
     src: imageFile,

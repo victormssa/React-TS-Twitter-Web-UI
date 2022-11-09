@@ -1,7 +1,7 @@
-import { Anchor } from './components/Anchor';
-import { Button } from './components/Button';
-import { Heading } from './components/Heading';
-import { Text } from './components/Text';
+import { Anchor } from '../Anchor/Anchor';
+import { Button } from '../Button/Button';
+import { Heading } from '../Heading/Heading';
+import { Text } from '../Text/Text';
 import { TwitterLogo, House, Hash, Bell, EnvelopeSimple, BookmarkSimple, List, User, DotsThreeCircle, DotsThree } from 'phosphor-react'; 
 import imageFile from './assets/imgs/profilePicture.png';
 import './styles/global.css';

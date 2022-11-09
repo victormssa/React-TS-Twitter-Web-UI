@@ -10,9 +10,10 @@ export interface TextProps {
     children: ReactNode;
     asChild? :boolean;
     className?: string;
+    id?: string;
 }
 
-export function Text({ size = 'md', color = 'black', weight = '700', children, asChild, className }: TextProps) {
+export function Text({ size = 'md', color = 'black', weight = '700', children, asChild, className, id }: TextProps) {
     const Comp = asChild ? Slot : 'p';
     return (
         <Comp 
@@ -35,6 +36,7 @@ export function Text({ size = 'md', color = 'black', weight = '700', children, a
                     'font-bold': weight === '700',
                 },
                 className,
+                id,
         )}>{children}</Comp>
     )
 }

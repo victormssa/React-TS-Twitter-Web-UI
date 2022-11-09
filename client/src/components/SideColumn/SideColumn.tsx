@@ -1,11 +1,11 @@
-import { Heading } from "./components/Heading"
-import { Text } from "./components/Text"
-import image1 from './assets/imgs/news1.png'
-import image2 from './assets/imgs/news2.png'
-import image3 from './assets/imgs/news3.png'
-import profile2 from './assets/imgs/ProfilePicture2.png'
-import profile3 from './assets/imgs/ProfilePicture3.png'
-import { Button } from "./components/Button";
+import { Heading } from "../Heading/Heading"
+import { Text } from "../Text/Text"
+import image1 from '../../assets/imgs/news1.png'
+import image2 from '../../assets/imgs/news2.png'
+import image3 from '../../assets/imgs/news3.png'
+import profile2 from '../../assets/imgs/ProfilePicture2.png'
+import profile3 from '../../assets/imgs/ProfilePicture3.png'
+import { Button } from "../Button/Button";
 export function SideColumn() {
     return (
       <>
